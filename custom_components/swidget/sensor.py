@@ -3,7 +3,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import cast
 
-from pyswidget import SwidgetDevice
+from pyswidget.device import SwidgetDevice
 
 from homeassistant.components.sensor import (
     SensorDeviceClass,

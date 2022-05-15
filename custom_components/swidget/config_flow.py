@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from pyswidget import SwidgetDevice, SwidgetException
+from pyswidget.device import SwidgetDevice, SwidgetException
 from pyswidget.discover import Discover
 import voluptuous as vol
 

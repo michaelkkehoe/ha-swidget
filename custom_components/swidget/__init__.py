@@ -1,8 +1,10 @@
+from __future__ import annotations
+
 import asyncio
 from datetime import timedelta
 from typing import Any
 
-from pyswidget import SwidgetDevice, SwidgetException
+from pyswidget.device import SwidgetDevice, SwidgetException
 from pyswidget.discovery import Discovery
 
 from homeassistant import config_entries

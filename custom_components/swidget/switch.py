@@ -4,7 +4,7 @@ from __future__ import annotations
 import logging
 from typing import Any, cast
 
-from pyswidget import SwidgetDevice, SwidgetOutlet
+from pyswidget.device import SwidgetDevice, SwidgetOutlet
 
 from homeassistant.components.switch import SwitchEntity
 from homeassistant.config_entries import ConfigEntry
