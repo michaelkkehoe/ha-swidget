@@ -5,7 +5,7 @@ from datetime import timedelta
 from typing import Any
 
 from pyswidget.device import SwidgetDevice, SwidgetException
-from pyswidget.discovery import Discovery
+from pyswidget.discovery import SwidgetProtocol
 
 from homeassistant import config_entries
 from homeassistant.components import network
